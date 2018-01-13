@@ -20,8 +20,8 @@
       <li><a href="./user.html"><span class="glyphicon glyphicon-user"></span>用户管理</a></li>
       <li>
         <a href="#" class="selecmenu"><span class="glyphicon glyphicon-list"></span>分类管理</a>
-        <div class="second">
-          <a href="./first.html">一级分类</a>
+        <div class="second" style="display: block">
+          <a href="./first.html" class="active">一级分类</a>
           <a href="./second.html">二级分类</a>
         </div>
       </li>
@@ -41,15 +41,10 @@
   <div class="container-fluid">
     <ol class="breadcrumb">
       <li><a href="#">管理系统</a></li>
-      <li><a href="#">首页</a></li>
+      <li><a href="#">分类管理</a></li>
+      <li><a href="#">一级分类</a></li>
     </ol>
 
-    <div class="cart">
-      <div class="cart-left pull-left" id="cart-left">
-
-      </div>
-      <div class="cart-right pull-right" id="cart-right"></div>
-    </div>
   </div>
 </div>
 
@@ -79,11 +74,6 @@
 <script src="./lib/echarts/echarts.min.js"></script>
 <script src="lib/bootstrap-validator/js/bootstrapValidator.js"></script>
 <script src="./js/common.js"></script>
-<script src="js/index.js"></script>
-<script>
-  $('.aside  .nav  a').on('click',function(){
-    $(this).toggleClass('active');
-  })
-</script>
+
 </body>
 </html>
